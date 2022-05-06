@@ -42,7 +42,7 @@ def hangman(word):
             break 
     if not win: ## 負け
         ## print("\n".join(stages[0:wrong])) 
-        print("You lose! It was '{}'.".format(word)) 
+        print(f"You lose! It was '{word}'.") 
         print(" ")
 
 words=["food","apple","orange","rice","bread","egg","soup","meat","fish","mushroom",
